@@ -7,7 +7,7 @@ import Slider3 from "../../../../public/assets/9.jpeg"
 
 import Image from 'next/image';
 
-const slider = () => {
+const Slider = () => {
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -52,4 +52,4 @@ const slider = () => {
   )
 }
 
-export default slider
+export default Slider
