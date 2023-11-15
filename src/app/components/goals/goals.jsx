@@ -14,7 +14,7 @@ import Image from 'next/image';
 
 const goals = () => {
   return (
-
+    <div id='goals'>
     <div className="m-4 rounded p-4" id={styles.goals}>
         <h2 className='text-center'>Vores mål</h2>
         <article className='row text-center mt-5'>
@@ -38,6 +38,7 @@ const goals = () => {
                 <figcaption>Mere sol</figcaption>
             </section>
         </article>
+    </div>
     </div>
   )
 }

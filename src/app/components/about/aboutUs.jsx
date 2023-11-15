@@ -3,6 +3,7 @@ import styles from '../../styles/about.module.scss'
 
 const aboutUs = () => {
   return (
+    <div id=''>
     <div className=" m-4 rounded p-4 " id={styles.about}>
       <h2 className='text-center'>Om os</h2>
       <p>
@@ -19,6 +20,7 @@ const aboutUs = () => {
       <p>
         Vi er også et mødested for folk, der er interesserede i bæredygtighed. Vi tilbyder et fællesskab for folk, der kan dele deres ideer og erfaringer, og vi kan hjælpe folk med at finde ressourcer og støtte til at leve et mere bæredygtigt liv.
       </p>
+    </div>
     </div>
   )
 }

@@ -13,6 +13,7 @@ import Navbar from './components/navbar/navbar';
 import Slider from './components/slider/slider';
 import AboutUs from './components/about/aboutUs';
 import Goals from './components/goals/goals';
+import Us from './components/try/us';
 
 const Home = () => {
 
@@ -24,9 +25,10 @@ const Home = () => {
 
  <main id={styles.main}>
   <Navbar/>
-  <AboutUs/>
+  {/* <AboutUs/> */}
+  <Us/>
   <Slider/>
-  <Goals/>
+  {/* <Goals/> */}
  </main>
 
   )

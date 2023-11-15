@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">{children}
+      <body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0" id='body'>{children}
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" ></Script>
       </body>
     </html>
