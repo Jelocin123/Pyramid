@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../styles/navbar.module.scss'
 import Link from 'next/link';
-import Profile from '../../../../public/assets/12.jpeg';
+import Profile from '../../../../public/assets/logo-black.png';
 import Image from 'next/image';
 
 
